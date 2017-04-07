@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>식당예약HTML</title>
+  </head>
+  <body>
+    <section>
+      <form action="http://hive.dju.ac.kr/~drkdhong/semantic/reservation1.jsp" method="post">
+        <fieldset>
+          <legend>예약자 정보</legend>
+          <label for="namex">이름</label>
+          <input type="text" id="namex" name="namex" value=""/><br/>
+          <label for="numberx">휴대전화</label>
+          <input type="tel" id="numberx" name="numberx" placeholder="Ex) 010-1234-5678" pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}"/><br/>
+          <label for="personx">인원:</label>
+          <input type="personx" id="personx" name="personx" value="" min="1" step="1"/>
+        </fieldset>
+        <fieldset>
+          <legend>예약 날짜 시간 입력</legend>
+          <label for="datex">날짜 : </label>
+          <input type="date" id="datex" name="datex" value=""/><br/>
+          <label for="timex">시간 : </label>
+          <input type="time" id="timex" name="timex" value=""/><br/>
+        </fieldset>
+        <fieldset>
+          <legend>예약하실 메뉴</legend>
+          <label for="menux">메뉴 : </label>
+          <select class="" id="menux" name="menux">
+            <option value="백반">백반 3500원</option>
+            <option value="해장라면">해장라면 3300원</option>
+            <option value="치킨마요" selected>치킨마요 4000원</option>
+          </select>
+        </fieldset>
+        <button type="submit">입력</button>
+        <input type="reset" name="reset1" value="취소"/>
+      </form>
+    </section>
+  </body>
+</html>
