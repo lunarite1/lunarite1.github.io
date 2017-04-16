@@ -4,38 +4,30 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah|Indie+Flower" rel="stylesheet">
     <meta charset="utf-8">
     <title>포트폴리오 0.1Ver</title>
-    <style media="screen">
+    <style>
+      a:link {text-decoration: none; color: #333333;}
+      a:visited {text-decoration: none; color: #333333;}
+      a:active {text-decoration: none; color: #333333;}
+      a:hover {text-decoration: underline; color: white;}
 
-    a.link{
-      color:
+    .font_1{
+      color:white; font-family: 'Indie Flower', cursive; font-size: 2rem;
     }
-    a.visited{
-      color:
+    .font_2{
+      font-size: 1.5rem; color: #aaaaaa;
     }
-
-
-
-
-
-
     header,section,article,aside,footer
     {border: 1px solid gray; margin: 5px;padding: 8px;width: 1000px;}
 
-    #bigdoor{
-      width:990px;height: 200px;
-    }
-    .sns{
-      width: 50px;height:50px;
-    }
-    /*header img{width:990px;height: 200px}*/
-
-
+    header img{width:990px;height: 400px}
     section{width: 750px;float: left;}
     section section {width: 725px;float:left;}
     aside{width: 221px;float:left;line-height: 30px;}
+
     footer{height: 50px;clear:both;}
+
     nav {
-      background-color: white; border: 4px hidden; margin: 6px; width: 1020px; height: 50px;
+      background-color: #646464; border: 4px hidden; margin: 6px; width: 1020px; height: 50px;
     }
     nav ul{margin: 0;padding: 0;}
 
@@ -43,61 +35,45 @@
       display: inline;margin: 17px;font-size: 1.5rem; font-weight: bold;
       line-height: 50px
     }
+
     aside ul{margin: 0;padding: 0;}
     aside ul li{display: block;margin: 5px;}
     aside ul li img{width: 50px;height:50px;}
     html{
-      background-color: powderblue;
-      font-family: 'Amatic SC', cursive;
+      background-color: #646464;
+
     }
     </style>
   </head>
   <body>
     <header>
-      <h2>실습을 환영합니다</h2>
-      <a class="sns" href="https://www.google.com" target="_blank"><img src="./images/GOOGLE+.png" alt="google+"></a>
-      <a class="sns" href="https://www.facebook.com" target="_blank"><img src="./images/facebook.png" alt="facebook"></a>
-      <a class="sns" href="https://www.twitter.com" target="_blank"><img src="./images/jjeck.png" alt="짹짹이">
-      <a id="bigboor" href="#"><img src="./images/cat.png" alt="냥이"></a>
+
+      <a href="#"><img src="./images/cat_1.png" alt="냥이"></a>
+
     </header>
     <nav>
       <ul>
         <li><a href="https://lunarite1.github.io/index"target="_blank">GitHub</a></li>
         <li><a href="https://lunarite1.github.io/TimeTable.html" target="_blank">2017_TimeTable</a></li>
         <li><a href="#chapter1">Future Plan</a></li>
-        <li><a href="#" target="_blank">etc..</a></li>
+        <li><a href="#" target="_blank">Etc..</a></li>
       </ul>
     </nav>
     <section> <!--main-->
-    <section>  <h3 id="chapter1">제 1장</h3>
-      <p>제 1장입니다. 제 1장은 다음을 정의합니다.</p>
+    <section>  <h3 class="font_1">Who "Seo Hyeong Geun"? </h3>
+      <br>
+      <li class="font_1"><class="font_2">Name : 서형근</li>
+      <li class="font_1"><class="font_2">Student.No : 20131503</li>
+
       <p>다음</p>
       <a href="http://www.google.com"target="_blank">구글이동(새윈도우)</a><br/>
       <a href="anchor2.html">사이트내 문서이동</a><br/>
       <a href="#chapter3">제3장 문서내 이동(북마크이동)</a><br/></section>
-      <section> <h3 id="chapter2">제 2장</h3>
-      <p>제 2장입니다. 제 2장은 무엇을 정의합니다.</p>
-      <p>HTML과 같은 하이퍼미디어에서, 노드는 HTML문서, 멀티미디어 정보를 표현하는 기본단위이고,
-      링크는 노드간을 연결하며, 앵커는 링크의 출발점 또는 도착점을 의미합니다.</p></section>
-      <section> <h3 id="chapter3">제 3장</h3>
-        <p>제 3장입니다. 제 3장은 무엇을 정의합니다.</p>
-      <table>
-          <tr>
-            <th>이동주소</th><th>사이트명</th><th>설명</th>
-          </tr>
-          <tr>
-            <td>구글</td><td><a href="http://www.naver.com">네이버</a></td><td>네이버</td>
-          </tr>
-          <tr>
-            <td>사이트다른문서</td><td><a href="anchor2.html">anchor2.html로 이동</a></td><td>anchor2</td>
-          </tr>
-          <tr>
-            <td>제1장</td><td><a href="#chapter1">제1장이동(북마크이동)</a></td><td>제1장</td>
-          </tr></table>
-      </section>
+
     </section> <!-- main -->
     <aside>
       <ul>
+        <li><a href="https://www.youtube.com/playlist?list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB" target="_blank">HTML 5 강의</a></li>
         <li><a href="https://www.google.com" target="_blank"><img src="./images/GOOGLE+.png" alt="google+"></a></li>
         <li><a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.png" alt="facebook"></a></li>
         <li><a href="https://www.twitter.com" target="_blank"><img src="./images/jjeck.png" alt="짹짹이"></a></li>
