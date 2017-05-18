@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+    * {margin:0px;padding:0px;}
+    ul.level_1>*{list-style: none; display: inline-block;vertical-align: bottom;}
+    .level_2 span{ display: inline-block; width: 70px;}
+    .level_2 input{width:150px;}
+    #loginbutton{
+        margin-left: 5px;height: 45px;    }
+    #section0{
+        width: 280px;height: 80px;margin:10px;padding:10px;border: solid 2px gray; border-radius: 1em;
+    }
+    </style>
+    <title>login1.html</title>
+  </head>
+  <body>
+    <section id="section0">
+      <h4>회원 로그인</h4>
+      <ul class="level_1">
+        <ul class="level_2">
+          <li><span>아이디</span><input type="text"></li>
+          <li><span>비밀번호</span><input type="password"></li>
+        </ul>
+        <li><button id="loginbutton" type="button" name="button">로그인</button></li>
+      </ul>
+    </section>
+  </body>
+</html>
