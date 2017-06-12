@@ -1,0 +1,59 @@
+/*반응형 웹 모바일 적용*/
+.row::after{content: "";clear:both;display: table;}
+.col-1{width:8.33%;}  .col-2{width: 16.66%;}  .col-3{width: 25%;} .col-4{width:33%;}
+.col-5{width:41.66%;} .col-6{width: 50%;} .col-7{width: 58.33%;}  .col-8{width: 66.66%;}
+.col-9{width:75%;}  .col-10{width: 83.33%;} .col-11{width:91.66%;}  .col-12{width: 100%;}
+[class*="col-"]{float: left;padding:10px;}  .header,.footer{background-color:lightgray;color:blue;padding:10px;}
+
+section, article,aside,footer
+{ margin : 0.2em; padding : 8px;}
+#baseline{
+  border: 1em solid powderblue; width: 113.5em;}
+#L_menu_profile{
+    border: 0.1em double gray; width: 16em; float: left; line-height: 2em;
+    height: 52em; margin-bottom: 1em; float: left; padding-left: 1em;
+}
+#L_menu_profile li{ font-size: 1.6em; font-style: oblique; margin-bottom: 0.5em;}
+#img_profile{
+  border-style:outset; border-color:gray; width: 13em; height: 13em;
+  border-radius: 3em; margin:1.5em;
+}
+#title_Rect{
+  border:0.1em solid gray; width: 92.9em; height: auto; float: left;
+}
+#title_1{  font-size: 2.5em;margin: 0em 0em 0.2em 1em;}
+#title_2{  font-size: 2em; text-align: right; margin-right: 3em}
+#contents_Rect {
+  border:0.2em solid gray; border-style: inset; border-color: orange;
+  width: 78em; height: 40.8em;float: left;
+  padding-left: 20px; overflow: auto;
+}
+#contents_Rect div li{
+  font-size: 1.8em; font-weight: bold; font-style: italic;
+  margin-bottom: 0.7em;
+}
+.QNA{font-size: 5em;text-align: center;}
+.contents p{margin-left: 0.8em;font-size: 1.5em;}
+#tip_site{ border:0.1em solid gray; height: 41em;width: 12.3em;}
+.right_link li a>img{width: 9em; height: 9em;
+  display: block; margin-left: auto; margin-right: auto; margin-top: 1em;
+  border-style:outset; border-radius: 3em; border-color:gray;
+}
+.right_link p{  text-align: center;font-size: 1.2em;font-weight: bold;}
+
+#footer_copy{ font-size: 1.5em; margin:0.4em 0em 0em 1.5em;}
+
+.contents_point{
+  font-weight: bold; color: blue;
+}
+.little_name{ font-size: 1.5em; font-weight: bold;}
+footer{border: 0.1em solid gray;height: 3em;width: 111.5em;clear:both;}
+aside ul{margin: 0;padding: 0;}
+aside ul li{display: block;}
+
+
+/*a 태그 링크 css */
+a:link {text-decoration: none; color:black;}
+a:visited {text-decoration: none; color: black;}
+a:active {text-decoration: none; color: black;}
+a:hover {text-decoration: none; color: red;}
